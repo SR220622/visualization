@@ -42,6 +42,7 @@ How could this data visualization have been improved?
 ```Visualization Chosen: (https://public.tableau.com/app/profile/ojoswi/viz/MoMWorldPopulationV23/Option3)
 
 Why is this a Bad Visualization?
+
 This chart has been criticized for several reasons:
 Overuse of Color and Design Complexity
 The visualization contains too many colors, which can create cognitive overload and make it difficult to interpret the information quickly. The color scheme does not effectively group data or highlight key insights. Unclear Data Representation
@@ -68,6 +69,8 @@ How could this data visualization have been improved?
 3.Improve Labeling: Clearer, well-placed labels would help with readability.
 
 4.Enhance Accessibility: Ensuring the visualization is readable for individuals with color blindness by choosing appropriate contrast and font size.
+
+```
 
 
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 

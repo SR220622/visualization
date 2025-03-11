@@ -7,6 +7,8 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
+     
+   I have chosen the Toronto Traffic Volume dataset from the City of Toronto's Open Data Portal. This dataset provides detailed information on traffic flow across major roads in Toronto, including vehicle counts by time of day and location.
     > Visualization 1: Line Chart (Python - Matplotlib/Seaborn)
     What software did you use to create your data visualization?
     Python with Matplotlib and Seaborn libraries

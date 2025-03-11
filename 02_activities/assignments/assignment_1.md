@@ -2,6 +2,7 @@
 
 ## Assignment 1: Participation (Ongoing)
 
+
 ### Requirements:
 
 - During every class, follow along with sample code from the slides. All code that you should be running in Python is formatted as follows:
