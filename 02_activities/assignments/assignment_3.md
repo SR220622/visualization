@@ -9,6 +9,9 @@
 - For each visualization, describe and justify: 
      
    I have chosen the Toronto Traffic Volume dataset from the City of Toronto's Open Data Portal. This dataset provides detailed information on traffic flow across major roads in Toronto, including vehicle counts by time of day and location.
+
+   data_url = "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/traffic-volumes-midblock-vehicle-speed-volume-and-classification-counts/resource/a5416442-d33a-4691-8444-92bbe7ce9f34/view/7c286f69-22e0-450d-9cd0-549f07954c77"
+
     > Visualization 1: Line Chart (Python - Matplotlib/Seaborn)
     What software did you use to create your data visualization?
     Python with Matplotlib and Seaborn libraries
@@ -77,9 +80,12 @@
     > What ‘underwater labour’ contributed to your final data visualization product?
     Extensive dataset exploration was required to merge multiple data sources, format timestamps, and align inconsistent road labels.
 
-    Conclusion
 
-Both visualizations serve distinct yet complementary purposes: the line chart emphasizes temporal trends in traffic peaks, while the heatmap pinpoints spatial congestion hotspots. Together, they provide valuable insights for policymakers, commuters, and businesses, supporting informed decision-making to improve Toronto's urban traffic landscape.
+Conclusion
+Key Insights:
+Peak Hours: Both visualizations suggest a strong correlation between increased traffic volume and typical commuting hours (morning and evening).
+Off-Peak Hours: Traffic volume tends to dip significantly during off-peak hours, such as mid-day or late-night, indicating periods where traffic management efforts can be scaled back.
+Trend Over Time: By utilizing these visualizations, city planners can better understand traffic flow patterns over different times of the day and week, aiding in long-term urban mobility strategies.
 
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
