@@ -12,7 +12,7 @@
 
    data_url = "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/traffic-volumes-midblock-vehicle-speed-volume-and-classification-counts/resource/a5416442-d33a-4691-8444-92bbe7ce9f34/view/7c286f69-22e0-450d-9cd0-549f07954c77"
 
-    > Visualization 1: Line Chart (Python - Matplotlib/Seaborn)
+    > Visualization 1: Line Chart and heatmap (Python - Matplotlib/Seaborn)
     What software did you use to create your data visualization?
     Python with Matplotlib and Seaborn libraries
 
