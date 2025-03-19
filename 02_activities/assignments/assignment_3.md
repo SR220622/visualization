@@ -7,23 +7,86 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
-    > What software did you use to create your data visualization?
+     
+   I have chosen the Toronto Traffic Volume dataset from the City of Toronto's Open Data Portal. This dataset provides detailed information on traffic flow across major roads in Toronto, including vehicle counts by time of day and location.
+
+   data_url = "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/traffic-volumes-midblock-vehicle-speed-volume-and-classification-counts/resource/a5416442-d33a-4691-8444-92bbe7ce9f34/view/7c286f69-22e0-450d-9cd0-549f07954c77"
+
+    > Visualization 1: Line Chart and heatmap (Python - Matplotlib/Seaborn)
+    What software did you use to create your data visualization?
+    Python with Matplotlib and Seaborn libraries
 
     > Who is your intended audience? 
+    City planners, transportation analysts, and policymakers.
     
     > What information or message are you trying to convey with your visualization? 
+    This visualization highlights peak traffic hours in downtown Toronto, helping identify congestion patterns and informing traffic management strategies.
     
     > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    Substantive Principle: Data was filtered to focus on high-traffic zones within the downtown core to emphasize critical traffic flow patterns.
+
+    Perceptual Principle: The line chart uses clear color contrasts (e.g., red for peak hours) and labeled axes to guide viewers’ attention.
+
+    Aesthetic Principle: The plot maintains a clean layout with consistent spacing, minimal clutter, and a balanced color palette for readability.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    The Python code includes comments and step-by-step instructions for dataset loading, cleaning, and visualization.
+
+    All data manipulations are saved as reusable functions to ensure replicability
     
     > How did you ensure that your data visualization is accessible?  
+    Added descriptive titles, axis labels, and colorblind-friendly palettes for inclusivity.
     
-    > Who are the individuals and communities who might be impacted by your visualization?  
+    > Who are the individuals and communities who might be impacted by your visualization?
+    Insights from this visualization can inform improved traffic control measures, benefiting daily commuters and reducing environmental impact through efficient routing.  
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    Selected only key variables like Time of Day, Location, and Vehicle Count to maintain focus on traffic trends.
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+    Data cleaning involved handling missing timestamps, inconsistent labels, and aggregating counts by hour.
+
+    > Visualization 2: Line Chart (Python - Matplotlib/Seaborn)
+    What software did you use to create your data visualization?
+    Tableau Public
+
+    > Who is your intended audience? 
+    Local businesses, public transit authorities, and Toronto residents.
+
+    > What information or message are you trying to convey with your visualization? 
+    The heatmap visualizes congestion hotspots, emphasizing the busiest intersections and roads during rush hours.
+
+    > What design principles (substantive, perceptual, aesthetic) did you consider when making your visualization? How did you apply these principles? With what elements of your plots? 
+    Substantive Principle: Only intersections with consistently high traffic volumes were included to focus on areas requiring immediate attention.
+
+    Perceptual Principle: The heatmap's gradient scale effectively visualizes intensity, with deeper colors indicating higher congestion.
+
+    Aesthetic Principle: Clear legend placement and tooltips improve readability and interactivity.
+
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+    Tableau workbook files are shared publicly, along with clear instructions to load the dataset for reproducibility.
+
+    > How did you ensure that your data visualization is accessible?  
+    Used color gradients that remain distinguishable for viewers with color vision deficiencies.
+
+    Interactive tooltips provide textual descriptions for improved accessibility.
+
+    > Who are the individuals and communities who might be impacted by your visualization?
+    The visualization supports city residents in identifying alternate routes and helps businesses plan delivery schedules by recognizing peak congestion periods
+
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization?
+    Focused on Intersection ID, Vehicle Count, and Time Slot to convey core congestion patterns.
+ 
+    > What ‘underwater labour’ contributed to your final data visualization product?
+    Extensive dataset exploration was required to merge multiple data sources, format timestamps, and align inconsistent road labels.
+
+
+Conclusion
+Key Insights:
+Peak Hours: Both visualizations suggest a strong correlation between increased traffic volume and typical commuting hours (morning and evening).
+Off-Peak Hours: Traffic volume tends to dip significantly during off-peak hours, such as mid-day or late-night, indicating periods where traffic management efforts can be scaled back.
+Trend Over Time: By utilizing these visualizations, city planners can better understand traffic flow patterns over different times of the day and week, aiding in long-term urban mobility strategies.
+
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
